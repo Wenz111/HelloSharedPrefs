@@ -36,8 +36,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     private SharedPreferences mPreferences;
-    private String sharedPrefFile =
-            "com.example.android.hellosharedprefs";
+    private String sharedPrefFile = "com.example.android.hellosharedprefs";
 
     // Current count
     private int mCount = 0;
@@ -45,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
     private int mColor;
     // Text view to display both count and color
     private TextView mShowCountTextView;
+    private TextView mShowCount;
 
     // Key for current count
     private final String COUNT_KEY = "count";
